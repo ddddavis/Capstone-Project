@@ -8,7 +8,7 @@
     <script src="https://kit.fontawesome.com/b124683f80.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
-    <title>Hacksalon - Online Courses results</title>
+    <title>Hacksalon - Online Courses</title>
   </head>
 
   <body>
@@ -48,80 +48,54 @@
     </nav>
 
     <main>
-      <section id="search_box_jump" class="background_image">
-        <div class="search_box">
-          <div class="box_color">
-            <h2 class="search_box_title">Hacksalon - Learn on your schedule</h2>
-            <div class="search">
-              <form action="search.html" method="post">
-                <label class="search_label">search by keyword:</label>
-                <br />
-                <input class="search_input" type="text" name="search" /><button class="search_button">SEARCH</button>
-              </form>
+      <section class="results_find">
+        <div class="find_box">
+          <h2 class="find_title">Find a course that suits you by name, language, development or framework</h2>
+          <div class="find_inputs">
+            <div class="find_search tablet_padding"><input class="find_input" type="text" name="name" /><button class="find_button"><i class="fas fa-search"></i></button></div>
+            <div class="dropdown tablet_padding">
+              <button class="dropdown_button">Language</button>
+              <div class="dropdown_list">
+                <a class="dropdown_item" href="#">HTML</a>
+                <a class="dropdown_item" href="#">CSS</a>
+                <a class="dropdown_item" href="#">RUBY</a>
+                <a class="dropdown_item" href="#">SQL</a>
+                <a class="dropdown_item" href="#">JAVASCRIPT</a>
+              </div>
+            </div>
+            <div class="dropdown tablet_padding">
+              <button class="dropdown_button">Development</button>
+              <div class="dropdown_list">
+                <a class="dropdown_item" href="#">Front-End</a>
+                <a class="dropdown_item" href="#">Back-End</a>
+              </div>
+            </div>
+            <div class="dropdown tablet_padding">
+              <button class="dropdown_button">Framework</button>
+              <div class="dropdown_list">
+                <a class="dropdown_item" href="#">ANGULAR</a>
+                <a class="dropdown_item" href="#">JQUERY</a>
+                <a class="dropdown_item" href="#">REACT</a>
+                <a class="dropdown_item" href="#">VUE</a>
+                <a class="dropdown_item" href="#">RUBY ON RAILS</a>
+                <a class="dropdown_item" href="#">BOOTSTRAP</a>
+                <a class="dropdown_item" href="#">FOUNDATION</a>
+                <a class="dropdown_item" href="#">MYSQL</a>
+              </div>
             </div>
           </div>
-          <div class="how_it_works">
-            <a class="hiw_button" href="#hiw_box_jump">how it works</a>
-          </div>
         </div>
       </section>
 
-      <section id="hiw_box_jump" class="hiw_box">
-        <h2 class="hiw_title"><span class="hack_color">hacksalon</span> works in these four simple steps</h2>
-        <ul class="hiw_steps">
-          <li class="steps">
-            <img class="steps_search" alt="logo" src="icons/search-engine.svg" />
-            <h2 class="steps_title">1- SEARCH</h2>
-            <p class="steps_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint libero rerum, distinctio nostrum perspiciatis itaque iure similique eius molestias maiores tempora voluptas voluptatum esse obcaecati sit ullam, deleniti earum accusantium?</p>
-          </li>
-          <li class="steps">
-            <img class="steps_find" alt="search" src="icons/search.svg" />
-            <h2 class="steps_title">2- FIND A COURSE</h2>
-            <p class="steps_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint libero rerum, distinctio nostrum perspiciatis itaque iure similique eius molestias maiores tempora voluptas voluptatum esse obcaecati sit ullam, deleniti earum accusantium?</p>
-          </li>
-          <li class="steps">
-            <img class="steps_sign" alt="sign-up" src="icons/sign-up.svg" />
-            <h2 class="steps_title">3- SIGN UP</h2>
-            <p class="steps_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint libero rerum, distinctio nostrum perspiciatis itaque iure similique eius molestias maiores tempora voluptas voluptatum esse obcaecati sit ullam, deleniti earum accusantium?</p>
-          </li>
-          <li class="steps">
-            <img class="step_coding" alt="coding" src="icons/coding.svg" />
-            <h2 class="steps_title">4- GET CODING</h2>
-            <p class="steps_para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint libero rerum, distinctio nostrum perspiciatis itaque iure similique eius molestias maiores tempora voluptas voluptatum esse obcaecati sit ullam, deleniti earum accusantium?</p>
-          </li>
-        </ul>
-      </section>
-
-      <section class="features">
-        <div class="feature1">
-          <div class="tabs_text">
-            <h4 class="tabs_title">Over 1,000,000 courses registered with us</h4>
-            <h5 class="tabs_explain">Just type a keyword and hit enter</h5>
-            <a class="tabs_button button_color1" href="#search_box_jump">Find a course</a>
-          </div>
-          <div class="tabs_image">
-            <img class="tabs_image_1" alt="pic" src="https://www.fatbrokestupid.com/wp-content/uploads/2019/09/Online-Course-3-FI-RESIZE-1000.jpg" />
-          </div>
-        </div>
-        <div class="feature2">
-          <div class="tabs_text">
-            <h4 class="tabs_title">Find the best course and get coding</h4>
-            <h5 class="tabs_explain">Just type a keyword and hit enter</h5>
-            <a class="tabs_button button_color1" href="#search_box_jump">Find a course</a>
-          </div>
-          <div class="tabs_image">
-            <img class="tabs_image_1" alt="pic" src="https://erasmuscoursescroatia.com/wp-content/uploads/2019/12/Online-courses.jpg" />
-          </div>
-        </div>
-        <div class="feature3">
-          <div class="tabs_text">
-            <h4 class="tabs_title">Supports tablets and mobile devices</h4>
-            <h5 class="tabs_explain">Just type a keyword and hit enter</h5>
-            <a class="tabs_button button_color1" href="#search_box_jump">Find a course</a>
-          </div>
-          <div class="tabs_image">
-            <img class="tabs_image_mobile" alt="pic" src="mobile.png" />
-          </div>
+      <section class="results">
+        <h2 class="result_title">Search found 6 results: </h2>
+        <div class="results_image">
+          <a href="results.html"><img class="result" alt="coding" src="icons/coding.svg"/></a>
+          <a href="results.html"><img class="result" alt="coding" src="icons/coding.svg"/></a>
+          <a href="results.html"><img class="result" alt="coding" src="icons/coding.svg"/></a>
+          <a href="results.html"><img class="result" alt="coding" src="icons/coding.svg"/></a>
+          <a href="results.html"><img class="result" alt="coding" src="icons/coding.svg"/></a>
+          <a href="results.html"><img class="result" alt="coding" src="icons/coding.svg"/></a>
         </div>
       </section>
     </main>
@@ -142,7 +116,7 @@
             <a href="#">ADVERTISE</a>
           </li>
           <li class="upper_item upper_middle">
-            <a href="#"><img alt="pic" class="logo middle_logo" src="logo.svg"/></a>
+            <a href="#"><img class="logo middle_logo" alt="pic" src="logo.svg"/></a>
           </li>
           <li class="upper_item upper_side2">
             <a href="#">FACEBOOK</a>
