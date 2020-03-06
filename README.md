@@ -2,7 +2,7 @@
 
 # What it does
 
-- Lists online courses
+- lists online courses
 - main page contains a search form
 - the search form button redirects to search.html, which has filter bar and shows a list of courses
 - each block of a courses redirects to results.html which contains detailed information about the course
